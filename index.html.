@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Sacha Creusat</title>
+    <meta name="description" content="Portfolio de Sacha Creusat, étudiant à l'ESDHEM.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- En-tête et navigation -->
+    <header>
+        <nav class="navbar" aria-label="Navigation principale">
+            <a href="#accueil" class="logo">Sacha Creusat</a>
+            <a href="#contact" class="nav-contact">Me contacter</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Présentation principale -->
+        <section id="accueil" class="hero">
+            <div class="hero-text">
+                <p class="subtitle">Étudiant en école de commerce</p>
+                <h1>Bonjour, je suis Sacha Creusat.</h1>
+                <p>
+                    Étudiant en première année d'Économie-Gestion à
+                    l'ESDHEM à Lille, je suis motivé, rigoureux et
+                    déterminé à devenir expert-comptable.
+                </p>
+                <a href="#projets" class="button">Découvrir mon parcours</a>
+            </div>
+
+            <!-- Remplace photo.jpg par ta propre photo -->
+            <img src="photo.jpg"
+                 alt="Photo de présentation de Sacha Creusat"
+                 class="profile-photo">
+        </section>
+
+        <!-- Quatre compétences -->
+        <section id="competences" class="section">
+            <h2>Mes compétences</h2>
+
+            <div class="skills">
+                <article class="skill">
+                    <h3>Rigueur</h3>
+                    <p>Je travaille avec sérieux et précision.</p>
+                </article>
+
+                <article class="skill">
+                    <h3>Organisation</h3>
+                    <p>Je sais organiser mon travail et mes priorités.</p>
+                </article>
+
+                <article class="skill">
+                    <h3>Travail en équipe</h3>
+                    <p>J'aime collaborer et atteindre des objectifs communs.</p>
+                </article>
+
+                <article class="skill">
+                    <h3>Anglais</h3>
+                    <p>Niveau A2, développé notamment lors de mon stage à Manchester.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Deux projets et expériences -->
+        <section id="projets" class="section">
+            <h2>Mes projets et expériences</h2>
+
+            <div class="projects">
+
+                <article class="project">
+                    <p class="tag">Expérience professionnelle</p>
+                    <h3>Stage chez Verlingue</h3>
+                    <p>
+                        Lors de mon stage à Manchester chez Verlingue,
+                        cabinet de courtage en assurance, j'ai découvert
+                        le monde professionnel. Cette expérience m'a
+                        permis de développer mon anglais et mon esprit
+                        d'équipe grâce à des missions collectives.
+                    </p>
+                </article>
+
+                <article class="project">
+                    <p class="tag">Projet professionnel</p>
+                    <h3>Devenir expert-comptable</h3>
+                    <p>
+                        Mon objectif est de devenir expert-comptable.
+                        Je souhaite approfondir mes connaissances en
+                        comptabilité et en finance, puis accompagner
+                        les entreprises dans la gestion de leurs comptes.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Centres d'intérêt -->
+        <section class="section interests">
+            <h2>En dehors des études</h2>
+            <p>Football · Kitesurf · Piano</p>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="contact">
+            <h2>Échangeons ensemble</h2>
+            <p>Vous souhaitez en savoir plus sur mon parcours ?</p>
+            <a href="mailto:sacha.creusat@skema.edu" class="button">
+                Me contacter par e-mail
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>© 2026 Sacha Creusat — Portfolio personnel</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
